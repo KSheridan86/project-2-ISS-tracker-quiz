@@ -79,3 +79,17 @@ function showQuiz() {
     firstQ.style.display = 'none';
     secondQ.style.display = 'none';
 }
+
+// Opens the quiz window from inside the map window
+function startQuiz() {
+    mapBox.style.display = 'none';
+    quizBox.style.display = 'block';
+    showAltitude.style.display = 'none';
+    showSpeed.style.display = 'none';
+    inMapBtn.style.display = 'none';
+    score.style.display = 'block';
+    score.innerText = `Score: ${totalScore}`;
+    score.style.fontSize = '2rem';
+    firstQ.style.display = 'none';
+    secondQ.style.display = 'none';
+}
