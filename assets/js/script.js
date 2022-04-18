@@ -93,3 +93,21 @@ function startQuiz() {
     firstQ.style.display = 'none';
     secondQ.style.display = 'none';
 }
+
+// Generates a random number, used to randomize the questions.
+function randomizer() {
+    let randomNum = Math.floor(Math.random() * `${initial}`);
+    randomNumber = randomNum;
+    initial--;
+}
+
+// increments the score
+function increment() {
+    totalScore++;
+    score.innerText = `Score: ${totalScore}`;
+}
+
+// Refresh the page by clicking the h1
+function refresh() {
+    window.location.reload();
+}
