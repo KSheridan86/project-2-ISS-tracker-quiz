@@ -111,3 +111,71 @@ function increment() {
 function refresh() {
     window.location.reload();
 }
+
+// The following functions run the game
+
+// Generates the first question and the score board
+function startGame() {
+    randomizer();
+    playAgain.style.display = 'none';
+    score.innerText = `Score: ${totalScore}`;
+    playGame.style.display = 'none';
+    quitGame.style.display = 'none';
+    firstQ.style.display = 'inline-block';
+    secondQ.style.display = 'inline-block';
+    question.textContent = questions[randomNumber].question;
+    firstQ.textContent = questions[randomNumber].a;
+    secondQ.textContent = questions[randomNumber].b;
+    checkAnswer();
+   
+}
+
+// Checks the innerText of the clicked button against the correct answer
+function checkAnswer(event) {
+    let changeColor = `#${event.target.id}`;
+    let clicked = event.target.innerText;
+    if (clicked === questions[randomNumber].correct) {
+        document.querySelector(changeColor).style.backgroundColor = 'rgba(2, 107, 18, 0.8)';
+        questions.splice(randomNumber, 1);
+        increment();
+    } else {
+        document.querySelector(changeColor).style.backgroundColor = 'rgb(148, 3, 3)';
+        questions.splice(randomNumber, 1);
+    }
+    continueGame();
+}
+
+// Generates the next question or ends the game
+function continueGame() {
+    setTimeout(function() {
+        firstQ.style.backgroundColor = 'rgb(64 58 85)';
+        secondQ.style.backgroundColor = 'rgb(64 58 85)';
+    }, 150);
+    if (questions.length > 10) {
+            startGame();
+    }
+    showScore();
+}
+
+// Checks the score and prints the end of game message
+function showScore() {
+    if (totalScore >= 7) {
+        question.textContent = 'Awesome, you know your ISS trivia! Play again?';
+    } else if (totalScore >= 4) {
+        question.textContent = 'You could do with some practice! Play again?';
+    } else {
+        question.textContent = 'Better luck next time! Play again?';
+    }
+    firstQ.style.display = 'none';
+    secondQ.style.display = 'none';
+    newGame();
+}
+
+// Initializes the playAgain button and sets up the global variables to play again
+function newGame() {
+    totalScore = 0;
+    questions = [...reloadQuestions];
+    initial = 20;
+    playAgain.style.display = 'inline-block';
+    quitGame.style.display = 'inline-block';
+}
