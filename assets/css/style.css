@@ -66,6 +66,31 @@ h1 {
     margin-top: -3rem;
 }
 
+#info-box {
+    background-color: rgb(218, 165, 32, .8);
+    height: 70vh;
+    width: 80vw;
+    border-radius: 5%;
+    border: 5px solid black;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+    transition: opacity 1s;
+    animation: fadeInAnimation ease 1.5s;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 /* Buttons */
 #enter-button {
     display: flex;
