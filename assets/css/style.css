@@ -8,6 +8,7 @@ html {
     padding: 0;
     font-family: 'Nova Square', cursive;
 }
+
 body {
     background-color: #000;
 }
@@ -312,6 +313,7 @@ footer {
     text-align: center;
     margin-top: 3rem;
 }
+
 a {
     text-decoration: none;
 }
@@ -333,9 +335,11 @@ a {
     html {
         font-size: 14px;
     }
+
     #data-box {
         margin-top: 19.5rem;
     }
+
     #altitude {
         margin-bottom: .6rem;
     }
@@ -345,22 +349,27 @@ a {
     .main-image {
         margin-left: -12rem;
     }
+
     #info-txt {
         font-size: .825rem;
     }
+
     #data-box {
         margin-top: 21.5rem;
     }
+
     #first-q {
         width: 6rem;
         height: 5rem;
     }
+
     #second-q {
         width: 6rem;
         height: 5rem;
     }
-        .play-again {
-    margin-left: 0rem;
+
+    .play-again {
+        margin-left: 0rem;
     }
 }
 
@@ -369,49 +378,59 @@ a {
     .main-image {
         margin-left: -15rem;
     }
+
     #data-box {
         margin-top: 22rem;
     }
 }
 
-@media  screen and (min-width: 400px) and (max-width:600px) and (min-height: 800px) {
+@media screen and (min-width: 400px) and (max-width:600px) and (min-height: 800px) {
     html {
         font-size: 20px;
     }
+
     .main-image {
         margin-left: -12.5rem;
         margin-top: -7.5rem;
     }
+
     /* Container */
     #quiz-box {
         font-size: 1.6rem;
     }
+
     /* Buttons */
     #play-game {
         height: 4rem;
         width: 6rem;
         font-size: 1.5rem;
     }
+
     #quit-game {
         height: 4rem;
         width: 6rem;
         font-size: 1.5rem;
     }
+
     #first-q {
         width: 6rem;
         height: 5rem;
     }
+
     #second-q {
         width: 6rem;
         height: 5rem;
     }
+
     /* Text elements */
     #speed {
         font-size: 1rem;
     }
+
     #altitude {
         font-size: 1rem;
     }
+
     .info-txt {
         font-size: 20px;
     }
@@ -423,6 +442,7 @@ a {
     html {
         font-size: 24px;
     }
+
     .main-image {
         background-image: url(../images/main-image.png);
         width: 190%;
@@ -436,29 +456,35 @@ a {
         animation: rotation 45s linear infinite;
         margin-top: -3rem;
     }
-     /* Container */
+
+    /* Container */
     #quiz-box {
         font-size: 1.6rem;
     }
-     /* Buttons */
+
+    /* Buttons */
     #in-map-btn {
         font-size: 1.6rem;
     }
+
     #enter-button {
         font-size: 1.6rem;
         height: 6rem;
         width: 6rem;
         border: 6px solid black;
     }
-     /* Text elements */
+
+    /* Text elements */
     #speed {
         font-size: 1.4rem;
     }
+
     #altitude {
         font-size: 1.4rem;
         margin-top: -1rem;
         margin-bottom: .6rem;
     }
+
     .info-txt {
         padding: .4rem;
         font-size: 1.1rem;
@@ -469,50 +495,190 @@ a {
     html {
         font-size: 26px;
     }
+
     h1 {
         font-size: 2.2rem;
     }
+
     .info-txt {
         padding: .6rem;
     }
-     /* Containers */
+
+    /* Containers */
     #data-box {
         margin-top: 22rem;
     }
+
     #quiz-box {
         font-size: 1.8rem;
     }
-     /* Buttons */
+
+    /* Buttons */
     #play-game {
         width: 8rem;
         height: 6rem;
         font-size: 2rem;
     }
+
     #quit-game {
         width: 8rem;
         height: 6rem;
         font-size: 2rem;
     }
+
     #first-q {
         height: 6rem;
         width: 8rem;
         font-size: 1.6rem;
     }
+
     #second-q {
         height: 6rem;
         width: 8rem;
         font-size: 1.6rem;
     }
+
     .play-again {
         width: 8rem;
         height: 6rem;
         font-size: 2rem;
     }
-     /* Footer */
+
+    /* Footer */
     footer {
         height: 6rem;
     }
+
     .fa-brands {
-        font-size: 2.5rem;;
+        font-size: 2.5rem;
+        ;
+    }
+}
+
+/* Laptops and bigger */
+@media screen and (min-width: 1024px) {
+    .main-image {
+        width: 130%;
+        height: 130%;
+        margin-left: -6.5rem;
+        margin-top: -7rem;
+        animation: none;
+    }
+
+    /* Containers */
+    #info-box {
+        height: 80vh;
+    }
+
+    #data-box {
+        width: 50%;
+        height: 6rem;
+        margin-top: 13rem;
+    }
+
+    #map-box {
+        margin-top: -6rem;
+        position: absolute;
+    }
+
+    #quiz-box {
+        position: absolute;
+        font-size: 1.2rem;
+        margin-top: -7rem;
+    }
+
+    /* Buttons */
+    #enter-button {
+        height: 5rem;
+        width: 5rem;
+        font-size: 1.4rem;
+    }
+
+    #in-map-btn {
+        font-size: 1.2rem;
+        width: 4rem;
+        height: 2rem;
+        margin-top: 0rem;
+    }
+
+    #first-q {
+        width: 6rem;
+        height: 4rem;
+        font-size: 1.3rem;
+    }
+
+    /* Text elements */
+    #second-q {
+        width: 6rem;
+        height: 4rem;
+        font-size: 1.3rem;
+    }
+
+    .show-message {
+        margin-bottom: 1rem;
+    }
+
+    #speed {
+        font-size: 1.1rem;
+    }
+
+    #altitude {
+        font-size: 1.1rem;
+    }
+
+    .info-txt {
+        font-size: .8rem;
+    }
+
+    /* Footer */
+    footer {
+        background-color: rgb(0, 0, 0, 0);
+    }
+}
+
+@media screen and (min-width: 1360px) {
+    .main-image {
+        animation: none;
+        width: 120%;
+        height: 120%;
+        margin-left: -6rem;
+        margin-top: -6rem;
+    }
+
+    .info-txt {
+        font-size: 1.1rem;
+    }
+
+    /* Containers */
+    #map-box {
+        margin-top: -7rem;
+        height: 50%;
+    }
+
+    #data-box {
+        margin-top: 16rem;
+    }
+
+    #quiz-box {
+        font-size: 1.6rem;
+    }
+
+    /* Buttons */
+    #first-q {
+        width: 7rem;
+        height: 5rem;
+        font-size: 1.5rem;
+    }
+
+    #second-q {
+        width: 7rem;
+        height: 5rem;
+        font-size: 1.5rem;
+    }
+
+    /* Footer */
+    footer {
+        height: 2rem;
+        margin-bottom: 3rem;
     }
 }
