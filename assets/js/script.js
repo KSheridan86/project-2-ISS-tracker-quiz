@@ -33,3 +33,9 @@ let secondQ = document.querySelector('#second-q');
     secondQ.addEventListener('click', checkAnswer);
 let playAgain = document.querySelector('#play-again');
     playAgain.addEventListener('click', startGame);
+
+    // Text elements 
+let showSpeed = document.querySelector('#speed');
+let showAltitude = document.querySelector('#altitude');
+let score = document.querySelector('#score');
+let question = document.querySelector('.show-message');
