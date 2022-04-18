@@ -53,11 +53,25 @@
                 <p id="altitude"></p>
                 <p id="score"></p>
                 <button id="in-map-btn">Quiz</button>
-                
+            </div>
+
+            <!-- Holds the info text shown after the click me button is pressed -->
+            <div id="info-inner">
+                <p class="info-txt">
+                    The ISS is a modular space station in low Earth orbit.
+                    It is a multinational collaborative project involving five participating space agencies:
+                    NASA, Roscosmos, JAXA, ESA, and CSA. 
+                </p>
+                <p class="info-txt"> Here I plot the coordinates of the ISS onto a map and update it every second so you can observe its path in real time.
+                </p>
+                <p class="info-txt"> After you have seen the view try your hand at my quiz,
+                    10 random questions designed to test your knowledge of the International Space Station.
+                </p>
+                <button id="map-btn">Map</button>
+                <button id="quiz-btn">Quiz</button>
             </div>
         </div>
     </main>
-
 
     <!-- Footer with social media links -->
     <footer>
@@ -72,7 +86,6 @@
                 class="fa-brands fa-github-square"></i></a>
     </footer>
 
-
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
     crossorigin=""></script>
@@ -80,4 +93,5 @@
     <script src="assets/js/questions.js"></script>
     <script src="assets/js/map-api.js"></script>
 </body>
+
 </html>
