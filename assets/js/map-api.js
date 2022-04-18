@@ -35,3 +35,25 @@ const marker = L.marker([0, 0], {
         }
     });
 })();
+
+//wheretheiss.at api
+const apiUrl = 'https://api.wheretheiss.at/v1/satellites/25544';
+
+async function trackISS() {
+    const response = await fetch(apiUrl);
+    const data = await response.json();
+    const {
+        latitude,
+        longitude,
+        velocity,
+        altitude
+    } = data;
+    marker.setLatLng([latitude, longitude]);
+    map.setView([latitude, longitude]);
+    showSpeed.innerHTML = `Speed: ${velocity.toFixed(2)} Kph`;
+    showAltitude.innerHTML = `Altitude: ${altitude.toFixed(2)} Km`;
+}
+
+trackISS();
+setInterval(trackISS, 1000);
+// '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
