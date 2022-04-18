@@ -326,3 +326,40 @@ a {
 #speed {
     margin-top: .5rem;
 }
+
+/* Media queries */
+/* Small mobile phones */
+@media screen and (max-width: 330px) {
+    html {
+        font-size: 14px;
+    }
+    #data-box {
+        margin-top: 19.5rem;
+    }
+    #altitude {
+        margin-bottom: .6rem;
+    }
+}
+
+@media screen and (max-width: 350px) and (min-height: 600px) {
+    .main-image {
+        margin-left: -12rem;
+    }
+    #info-txt {
+        font-size: .825rem;
+    }
+    #data-box {
+        margin-top: 21.5rem;
+    }
+    #first-q {
+        width: 6rem;
+        height: 5rem;
+    }
+    #second-q {
+        width: 6rem;
+        height: 5rem;
+    }
+        .play-again {
+    margin-left: 0rem;
+    }
+}
