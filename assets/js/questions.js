@@ -20,7 +20,7 @@ let questions = [{
 {
     'question': 'What was the estimated cost of building the ISS?',
     'correct': '120 Billion',
-    'a': '85 Billion',
+    'a': '105 Billion',
     'b': '120 Billion'
 },
 {
@@ -50,8 +50,8 @@ let questions = [{
 {
     'question': 'In what year did the ISS launch?',
     'correct': '1998',
-    'a': '1998',
-    'b': '2001'
+    'a': '1997',
+    'b': '1998'
 },
 {
     'question': 'Which country is banned from visiting the ISS?',
@@ -67,12 +67,12 @@ let questions = [{
 },
 {
     'question': 'The ISS has been continuously occupied since? ',
-    'correct': 'Nov 2000',
-    'a': 'Oct 1999',
-    'b': 'Nov 2000'
+    'correct': '2000',
+    'a': '1999',
+    'b': '2000'
 },
 {
-    'question': 'How long is the ISS?',
+    'question': 'Total length of the ISS is?',
     'correct': '109 metres',
     'a': '109 metres',
     'b': '122 metres'
