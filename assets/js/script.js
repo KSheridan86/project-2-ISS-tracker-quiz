@@ -53,3 +53,29 @@ function showBox() {
     score.style.display = 'none';
     question.textContent = 'Welcome to the International Space Station quiz';
 }
+
+// Opens the map window
+function showMap() {
+    infoInner.style.display = 'none';
+    mapBox.style.display = 'flex';
+    dataBox.style.display = 'inline';
+    showAltitude.style.display = 'block';
+    showSpeed.style.display = 'block';
+    inMapBtn.style.display = 'inline';
+    map.invalidateSize();
+}
+
+// Opens the quiz window
+function showQuiz() {
+    infoInner.style.display = 'none';
+    dataBox.style.display = 'inline';
+    quizBox.style.display = 'block';
+    showAltitude.style.display = 'none';
+    showSpeed.style.display = 'none';
+    score.style.display = 'block';
+    score.innerText = `Score: ${totalScore}`;
+    score.style.fontSize = '2rem';
+    inMapBtn.style.display = 'none';
+    firstQ.style.display = 'none';
+    secondQ.style.display = 'none';
+}
