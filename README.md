@@ -1,10 +1,10 @@
-# Three Decades of Discovery
-## The Hubble Space Telescope
+# ISS Tracker & Quiz
+## Track the ISS in real time while you try beat the quiz.
 
 
-> Live site available here: [Three Decades of Discovery](https://ksheridan86.github.io/project-1-hubble/index.html)
+> Live site available here: [ISS Tracker](https://ksheridan86.github.io/project-2-ISS-tracker-quiz/index.html)
 
-![responsive-example](./assets/docs/responsive-design.png)
+![responsive-example](./assets/docs/mockup.png)
 
 
 ## Table of Contents
