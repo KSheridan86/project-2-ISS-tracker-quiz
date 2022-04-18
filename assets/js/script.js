@@ -39,3 +39,17 @@ let showSpeed = document.querySelector('#speed');
 let showAltitude = document.querySelector('#altitude');
 let score = document.querySelector('#score');
 let question = document.querySelector('.show-message');
+
+// Functions
+
+// Opens the info box
+function showBox() {
+    infoBox.style.display = 'flex';
+    infoInner.style.display = 'block';
+    btnContainer.style.display = 'none';
+    mapBox.style.display = 'none';
+    dataBox.style.display = 'none';
+    quizBox.style.display = 'none';
+    score.style.display = 'none';
+    question.textContent = 'Welcome to the International Space Station quiz';
+}
