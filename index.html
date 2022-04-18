@@ -34,9 +34,27 @@
         <!-- Info box holds all the containers, eg. quiz, map, buttons.... -->
         <div id="info-box">
 
+            <!-- Holds the quiz game -->
+            <div id="quiz-box">
+                <div id="quiz-question" class="show-message">Welcome to the International Space Station quiz</div>
+                <button id="play-game">Play</button>
+                <button id="first-q">first</button>
+                <button id="second-q">second</button>
+                <button id="play-again" class="play-again">Play</button>
+                <button id="quit-game">Quit</button>
+            </div>
 
             <!-- Holds the map -->
             <div id="map-box"></div>
+
+            <!-- Holds the text box that appears below the map and quiz -->
+            <div id="data-box">
+                <p id="speed"></p>
+                <p id="altitude"></p>
+                <p id="score"></p>
+                <button id="in-map-btn">Quiz</button>
+                
+            </div>
         </div>
     </main>
 

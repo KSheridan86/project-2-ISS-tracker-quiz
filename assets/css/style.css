@@ -104,6 +104,37 @@ h1 {
     animation: fadeInAnimation ease 1s;
 }
 
+#quiz-box {
+    display: none;
+    height: 45%;
+    width: 70%;
+    z-index: 0;
+    position: fixed;
+    border-radius: 5%;
+    border: 4px solid black;
+    margin-top: -8rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: opacity 1s;
+    animation: fadeInAnimation ease 1s;
+}
+
+#data-box {
+    text-align: center;
+    height: 7rem;
+    width: 70%;
+    background-color: #ffe4c4;
+    position: relative;
+    margin-top: 20rem;
+    border: 4px solid black;
+    border-radius: 10%;
+    transition: opacity 1s;
+    animation: fadeInAnimation ease 1.5s;
+}
+
+
 /* Buttons */
 #enter-button {
     display: flex;
@@ -121,6 +152,94 @@ h1 {
     display: inline;
     text-align: center;
 }
+
+#play-game {
+    width: 6rem;
+    height: 4rem;
+    text-align: center;
+    color: goldenrod;
+    text-decoration: none;
+    background-color: rgb(64 58 85);
+    z-index: 10;
+    font-size: 1.5rem;
+    border-radius: 15%;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: .6rem;
+    box-shadow: 3px 2px #000;
+}
+
+#quit-game {
+    width: 6rem;
+    height: 4rem;
+    text-align: center;
+    color: goldenrod;
+    text-decoration: none;
+    background-color: #403a55;
+    z-index: 10;
+    font-size: 1.5rem;
+    border-radius: 15%;
+    display: inline-block;
+    box-shadow: 3px 2px #000;
+}
+
+#first-q {
+    width: 7rem;
+    height: 5rem;
+    text-align: center;
+    color: goldenrod;
+    text-decoration: none;
+    background-color: rgb(64 58 85);
+    z-index: 10;
+    font-size: 1.5rem;
+    border-radius: 15%;
+    display: inline-block;
+    margin-top: 1rem;
+    box-shadow: 3px 2px #000;
+}
+
+#second-q {
+    width: 7rem;
+    height: 5rem;
+    text-align: center;
+    color: goldenrod;
+    text-decoration: none;
+    background-color: rgb(64 58 85);
+    z-index: 10;
+    font-size: 1.5rem;
+    border-radius: 15%;
+    display: inline-block;
+    margin-left: .5rem;
+    margin-top: 1rem;
+    box-shadow: 3px 2px #000;
+}
+
+.play-again {
+    width: 6rem;
+    height: 4rem;
+    text-align: center;
+    color: goldenrod;
+    text-decoration: none;
+    background-color: rgb(64 58 85);
+    z-index: 10;
+    font-size: 1.5rem;
+    border-radius: 15%;
+    display: none;
+    margin-left: -.4rem;
+    margin-top: 1rem;
+    box-shadow: 3px 2px #000;
+}
+
+#in-map-btn {
+    height: 2.5rem;
+    width: 5rem;
+    border-radius: 15%;
+    background-color: rgb(64 58 85);
+    font-size: 1.2rem;
+    color: bisque;
+    margin-top: -.5rem;
+}
+
 
 /* Footer */
 footer {
@@ -156,4 +275,15 @@ footer {
 }
 a {
     text-decoration: none;
+}
+
+/* Text elements */
+.show-message {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    color: rgb(241, 148, 7);
+}
+
+#speed {
+    margin-top: .5rem;
 }
