@@ -363,3 +363,56 @@ a {
     margin-left: 0rem;
     }
 }
+
+/* Large mobile phones */
+@media screen and (min-width: 390px) and (max-width: 500px) and (min-height: 700px) {
+    .main-image {
+        margin-left: -15rem;
+    }
+    #data-box {
+        margin-top: 22rem;
+    }
+}
+
+@media  screen and (min-width: 400px) and (max-width:600px) and (min-height: 800px) {
+    html {
+        font-size: 20px;
+    }
+    .main-image {
+        margin-left: -12.5rem;
+        margin-top: -7.5rem;
+    }
+    /* Container */
+    #quiz-box {
+        font-size: 1.6rem;
+    }
+    /* Buttons */
+    #play-game {
+        height: 4rem;
+        width: 6rem;
+        font-size: 1.5rem;
+    }
+    #quit-game {
+        height: 4rem;
+        width: 6rem;
+        font-size: 1.5rem;
+    }
+    #first-q {
+        width: 6rem;
+        height: 5rem;
+    }
+    #second-q {
+        width: 6rem;
+        height: 5rem;
+    }
+    /* Text elements */
+    #speed {
+        font-size: 1rem;
+    }
+    #altitude {
+        font-size: 1rem;
+    }
+    .info-txt {
+        font-size: 20px;
+    }
+}
