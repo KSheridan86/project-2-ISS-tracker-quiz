@@ -5,6 +5,8 @@ let initial = 20;
 let randomNumber;
 
 // Containers 
+let image = document.querySelector('#main-image');
+    image.alt = "close up image of a star";
 let mapBox = document.querySelector('#map-box');
 let quizBox = document.querySelector('#quiz-box');
 let infoBox = document.querySelector('#info-box');
