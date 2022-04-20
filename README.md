@@ -239,7 +239,7 @@ I used a function that i found on StackOverflow to remove the lines between the 
 Throughout the development of this project i kept receiving an error in the console relating to a javaScript function.
 This function was passed an event and assigned it's value to a variable. 
 
-It looks like this = `let clicked = event.target.value;`
+It looks like this = `let clicked = event.target.innerText;`
 
 The variable was then used to compare the users choice with the correct answer in the quiz.
 Although this functioned worked perfectly the error persisted, my Mentor could not figure out why, and the slack community couldn't help either,
