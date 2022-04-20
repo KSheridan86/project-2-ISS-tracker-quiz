@@ -205,6 +205,13 @@ The second is the crosshair image used in the map and this was taken from wikime
 
 `"Unless otherwise specifically stated, no claim to copyright is being asserted by STScI and material on this site may be freely used as in the public domain in accordance with NASA's contract. However, it is requested that in any subsequent use of this work NASA and STScI be given appropriate acknowledgement."`
 
+The map is from leafletjs.com, i followed their quick start guide to get it working, it was very straight forward.
+
+- [leafletjs](https://leafletjs.com/SlavaUkraini/examples/quick-start/)
+
+The API used to plot the coordinates of the ISS onto the map was wheretheiss.at, by following their docs i found it very straight forward to use.
+
+-[ISS-API](https://wheretheiss.at/w/developer)
 
 [Back to the Top](#table-of-contents)
 
