@@ -133,8 +133,8 @@ function startGame() {
 
 // Checks the innerText of the clicked button against the correct answer
 function checkAnswer(event) {
-    let changeColor = `#${event.target.id}`;
     let clicked = event.target.innerText;
+    let changeColor = `#${event.target.id}`;
     if (clicked === questions[randomNumber].correct) {
         document.querySelector(changeColor).style.backgroundColor = 'rgba(2, 107, 18, 0.8)';
         questions.splice(randomNumber, 1);
