@@ -1,5 +1,5 @@
 # ISS Tracker & Quiz
-## Track the ISS in real time while you try beat the quiz.
+## Track the ISS in real time while you to try beat the quiz.
 
 
 > Live site available here: [ISS Tracker](https://ksheridan86.github.io/project-2-ISS-tracker-quiz/index.html)
@@ -47,31 +47,38 @@ These were:
 
 ## Features
 
-> ### Logo [screenshot](./assets/docs/logo.png)
-The logo is simply the name of the telescope in an off white color and shown in the iconic NASA font. This is also a link to the Home page which can be easily accessed from anywhere within the site.
+> ### Logo 
+![screenshot](./assets/docs/logo.png)
 
-> ### Hero Image [screenshot](./assets/docs/Home-page.png)
-The Hero image changes on each of the first three pages, the gallery page has enough imagery so as not to warrant one.
-Each image was chosen with regard to the content on each page.
+The logo is simply the title of the page. This is also a link to the Home page which can be easily accessed from anywhere within the site.
 
-The Home page opens with a shot of planet Earth our one and only home in this vast galactic neighbourhood.
+> ### Home page 
+![screenshot](./assets/docs/homepage.png)
 
-The About page continues with this idea seen on the home page but incorporates a visual of Hubble in orbit around earth.
+The home page features a spinning image of a star with a button in the center.
+There is a logo at the top and a footer at the bottom, if you click the 'click me' button you will begin to interact with the many sections available.
 
-The Operations page shows the Space Shuttle Discovery sitting on the launchpad at Kennedy Space Center, Florida. It was this shuttle that launched Hubble into orbit and performed multiple servicing missions to the telescope.   
+> ### Footer 
+![screenshot](./assets/docs/footer.png)
 
-> ### Footer [screenshot](./assets/docs/footer.png)
-The Footer includes all social media links which link to Hubbles official social media accounts.
+The Footer includes all my social media links and a link to my email.
 
-On top of the footer you will find an attached "Back to Top" button, the text inside this button relays the current page title and allows quick navigation to the top of the page and ultimately the navigation menu.
-Because of the usefulness of this button the footer is fixed to the bottom of the viewport and will stay in place as you scroll around the page.
+> ### Info Window 
+![screenshot](./assets/docs/info-box.png)
 
-> ### Home Page  [screenshot](./assets/docs/Home-page.png)
-This page gives a brief synopsis of the telescope and it's contributions to the scientific community.
-Here you will also find a video packed with wonderful imagery from the solar system and beyond.
+The info window pops up after you click the 'click me' button on the homepage, from here you get a little information about the ISS and the site itself.
 
+> ### Map Window  
+![screenshot](./assets/docs/map-box.png)
 
+The map window contains a leaflet.js map that updates every second with the current location of the ISS.
+There is also a box that holds constantly updated data about the ISS, namely Speed and Altitude and a button to access the quiz.
 
+> ### Quiz Window []
+![screenshot](./assets/docs/quiz-box.png)
+
+The quiz window gives you the option to play the game or quit.
+The box that held info about the ISS is now occupied by the current score.
 
 [Back to the Top](#table-of-contents)
 
@@ -92,17 +99,20 @@ Testing was done in a number of ways.
  All code was run through a validator and returned zero errors.
  These validator sites were:
 
-- [Jigsaw css validator](https://jigsaw.w3.org/css-validator/#validate_by_uri)
-- [W3C Validator](https://validator.w3.org/)
+- [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_uri)
+- [W3C HTML Validator](https://validator.w3.org/)
+- [JSHint JavaScript validator](https://jshint.com/)
 
 
 Screenshots of all these results can be found below.
+All the warnings about unused variables can be ignored as these variables are used in other files.
 
-[CSS](./assets/docs/css.png)
-[Home](./assets/docs/home.png)
-[About](./assets/docs/about.png)
-[Operations](./assets/docs/operations.png)
-[Gallery](./assets/docs/gallery.png)
+![CSS](./assets/docs/css.png)
+![Html](./assets/docs/html.png)
+![script](./assets/docs/script.png)
+![map](./assets/docs/map.png)
+![questions](./assets/docs/questions.png)
+
 
 > #### Responsivity Testing
 
@@ -113,7 +123,7 @@ This website allowed me to select a number of devices with different size screen
 
 > #### Google Lighthouse
 
-![Mobile Results](./assets/docs/lighthouse-mobile-400px.png) ![Desktop Results](./assets/docs/lighthouse-desktop-400px.png)
+![Results](./assets/docs/lighthouse.png) 
 
 
 [Back to the Top](#table-of-contents)
@@ -187,20 +197,13 @@ To fork this repository just follow the steps below.
 
 ## Credits
 
-All images, videos and information contained within this site were taken directly from one of four sites.
+Only two images were used across this site, the first is the home page image, it was taken from hubble telescopes official website which allows for free use of their content for education purposes and even commercial purposes once the correct credit is given.
+The second is the crosshair image used in the map and this was taken from wikimedia commons and is also free to use.
 
-These being: 
-
-- [The European Space Agency](https://www.esa.int/)
-- [NASA](https://www.nasa.gov/mission_pages/hubble/main/index.html)
 - [HubbleSite](https://hubblesite.org/)
-- [STSci](https://www.stsci.edu/)
-
-These sites allow free use of their content for education purposes and even commercial purposes once the correct credit is given.
+- [wikimedia](https://commons.wikimedia.org/wiki/File:Antu_crosshairs.svg)
 
 `"Unless otherwise specifically stated, no claim to copyright is being asserted by STScI and material on this site may be freely used as in the public domain in accordance with NASA's contract. However, it is requested that in any subsequent use of this work NASA and STScI be given appropriate acknowledgement."`
-
-
 
 
 [Back to the Top](#table-of-contents)
