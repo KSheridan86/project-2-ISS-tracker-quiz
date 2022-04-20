@@ -16,6 +16,7 @@
 - [Technologies](#technologies)
 - [Deployment](#deployment)
 - [Credits](#credits)
+- [Errors](#errors)
 - [Acknowledgements](#acknowledgements)
 - [Author Info](#author-info)
 
@@ -81,6 +82,18 @@ The quiz window gives you the option to play the game or quit.
 The box that held info about the ISS is now occupied by the current score.
 
 [Back to the Top](#table-of-contents)
+
+---
+
+## Future features
+
+I would like to add some extra features to this project but i did not have the time or knowledge to do this just yet.
+
+### Approaching alert
+I would like to allow the user to put in their own location and have the website inform them when or if the ISS will be passing overhead.
+
+### Day and Night view
+The ISS API already includes data that confirms if the ISS is in daylight or not, given this information i would like to swap out the map tiles from the regular satellite images to dark tiles that include street lights when the ISS is in the dark and vice versa.
 
 ---
 
@@ -212,6 +225,25 @@ The map is from leafletjs.com, I followed their quick start guide to get it work
 The API used to plot the coordinates of the ISS onto the map was wheretheiss.at, by following their docs I found it very straight forward to use.
 
 - [ISS-API](https://wheretheiss.at/w/developer)
+
+I used a function that i found on StackOverflow to remove the lines between the tiles on the map, this is stated above the function in the map-api.js file.
+
+[Back to the Top](#table-of-contents)
+
+---
+
+## Errors
+
+`Uncaught TypeError: Cannot read properties of undefined (reading 'target')`
+
+Throughout the development of this project i kept receiving an error in the console relating to a javaScript function.
+This function was passed an event and assigned it's value to a variable. 
+
+It looks like this = `let clicked = event.target.value;`
+
+The variable was then used to compare the users choice with the correct answer in the quiz.
+Although this functioned worked perfectly the error persisted, my Mentor could not figure out why, and the slack community couldn't help either,
+so i had to contact tutor support to help with this issue.
 
 [Back to the Top](#table-of-contents)
 
