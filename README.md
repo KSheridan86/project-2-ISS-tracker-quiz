@@ -73,7 +73,7 @@ Here you will also find a video packed with wonderful imagery from the solar sys
 
 
 
-[Back to the Top](#three-decades-of-discovery)
+[Back to the Top](#table-of-contents)
 
 ---
 
@@ -116,7 +116,7 @@ This website allowed me to select a number of devices with different size screen
 ![Mobile Results](./assets/docs/lighthouse-mobile-400px.png) ![Desktop Results](./assets/docs/lighthouse-desktop-400px.png)
 
 
-[Back to the Top](#three-decades-of-discovery)
+[Back to the Top](#table-of-contents)
 
 ---
 
@@ -143,7 +143,7 @@ This website allowed me to select a number of devices with different size screen
 
 
 
-[Back to the Top](#three-decades-of-discovery)
+[Back to the Top](#table-of-contents)
 
 ---
 
@@ -181,7 +181,7 @@ To fork this repository just follow the steps below.
 
  
 
-[Back to the Top](#three-decades-of-discovery)
+[Back to the Top](#table-of-contents)
 
 ---
 
@@ -203,7 +203,7 @@ These sites allow free use of their content for education purposes and even comm
 
 
 
-[Back to the Top](#three-decades-of-discovery)
+[Back to the Top](#table-of-contents)
 
 ---
 
@@ -211,7 +211,7 @@ These sites allow free use of their content for education purposes and even comm
 I would like to acknowledge the help and support given by my mentor Chris Quinn, all of the students in my own study group aswell as all the students in the wider Code Institute Slack channels. My cohort Facilitator Kasia Bogucka and all of the staff at Code Institute.
 The sense of comraderie among all of these individuals has helped me to feel at home on my journey to a new career in programming.
 
-[Back to the Top](#three-decades-of-discovery)
+[Back to the Top](#table-of-contents)
 
 ---
 
@@ -219,4 +219,4 @@ The sense of comraderie among all of these individuals has helped me to feel at 
 
 -GitHub - [Ken Sheridan](https://github.com/KSheridan86)
 
-[Back to the Top](#three-decades-of-discovery)
+[Back to the Top](#table-of-contents)

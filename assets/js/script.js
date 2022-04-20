@@ -127,7 +127,6 @@ function startGame() {
     firstQ.textContent = questions[randomNumber].a;
     secondQ.textContent = questions[randomNumber].b;
     checkAnswer();
-   
 }
 
 // Checks the innerText of the clicked button against the correct answer
@@ -152,7 +151,7 @@ function continueGame() {
         secondQ.style.backgroundColor = 'rgb(64 58 85)';
     }, 150);
     if (questions.length > 10) {
-            startGame();
+        startGame();
     }
     showScore();
 }
