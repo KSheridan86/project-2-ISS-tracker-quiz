@@ -242,7 +242,7 @@ This function was passed an event and assigned it's value to a variable.
 It looks like this = `let clicked = event.target.innerText;`
 
 The variable was then used to compare the users choice with the correct answer in the quiz.
-Although this functioned worked perfectly the error persisted, my Mentor could not figure out why, and the slack community couldn't help either,
+Although this function worked perfectly the error persisted, my mentor could not figure out why, and the slack community couldn't help either,
 so i had to contact tutor support to help with this issue.
 
 [Back to the Top](#table-of-contents)
