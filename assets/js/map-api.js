@@ -5,7 +5,7 @@ const map = L.map('map-box', {
     zoomControl: false
 }).setView([0, 0], 2);
 const attribution =
-'<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>';
+'<a href="https://www.maptiler.com/copyright/" target="_blank">|</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy;</a>';
 const tileUrl =
     'https://api.maptiler.com/tiles/satellite-v2/{z}/{x}/{y}.jpg?key=2Oi9o6YKioemgeKcXlQS';
 const tiles = L.tileLayer(tileUrl, {
@@ -56,3 +56,4 @@ async function trackISS() {
 
 trackISS();
 setInterval(trackISS, 1500);
+// '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>';
