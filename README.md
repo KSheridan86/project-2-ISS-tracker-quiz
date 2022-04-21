@@ -151,6 +151,9 @@ The variable was then used to compare the users choice with the correct answer i
 Although this function worked perfectly the error persisted, my mentor could not figure out why, and the slack community couldn't help either,
 so i had to contact tutor support to help with this issue.
 
+In the end it turned out i was calling the function too early and there was no valid event data available, the quiz worked because the click event on the button also called the function and at that point there was event data to work with but the error persisted in the console every loop through the quiz until the early function call was removed.
+It now works perfectly and there are zero errors.
+
 [Back to the Top](#table-of-contents)
 
 ---

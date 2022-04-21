@@ -128,7 +128,6 @@ function startGame() {
     question.textContent = questions[randomNumber].question;
     firstQ.textContent = questions[randomNumber].a;
     secondQ.textContent = questions[randomNumber].b;
-    checkAnswer();
 }
 
 // Checks the innerText of the clicked button against the correct answer
@@ -154,8 +153,9 @@ function continueGame() {
     }, 150);
     if (questions.length > 10) {
         startGame();
+    } else {
+        showScore();
     }
-    showScore();
 }
 
 // Checks the score and prints the end of game message
