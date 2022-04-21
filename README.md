@@ -14,9 +14,8 @@
 - [Features](#features)
 - [Testing](#testing)
 - [Technologies](#technologies)
-- [Deployment](#deployment)
+- [Deployment](#cloning)
 - [Credits](#credits)
-- [Errors](#errors)
 - [Acknowledgements](#acknowledgements)
 - [Author Info](#author-info)
 
@@ -139,30 +138,43 @@ This website allowed me to select a number of devices with different size screen
 ![Results](./assets/docs/lighthouse.png) 
 
 
+> #### Errors
+
+`Uncaught TypeError: Cannot read properties of undefined (reading 'target')`
+
+Throughout the development of this project i kept receiving an error in the console relating to a javaScript function.
+This function was passed an event and assigned it's value to a variable. 
+
+It looks like this = `let clicked = event.target.innerText;`
+
+The variable was then used to compare the users choice with the correct answer in the quiz.
+Although this function worked perfectly the error persisted, my mentor could not figure out why, and the slack community couldn't help either,
+so i had to contact tutor support to help with this issue.
+
 [Back to the Top](#table-of-contents)
 
 ---
 
 ## Technologies
 
-- HTML
-- CSS
-- JavaScript
-- GitHub
-- GitPod
-- Visual Studio Code
-- Markdown
-- FontAwesome
-- Google fonts
+- [HTML](https://devdocs.io/html/)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript)
+- [GitHub](https://github.com/)
+- [GitPod](https://www.gitpod.io/docs/)
+- [Visual Studio Code](https://code.visualstudio.com/Docs)
+- [Markdown](https://markdown-guide.readthedocs.io/en/latest/)
+- [FontAwesome](https://fontawesome.com/docs)
+- [Google fonts](https://fonts.google.com/)
 
 #### Resources
 
-- Code Institute Curriculum
-- YouTube
-- Udemy
-- FreeCodeCamp
-- W3Schools.com
-- MDN Web Docs
+- [Code Institute Curriculum](https://codeinstitute.net/ie/)
+- [YouTube](https://www.youtube.com/)
+- [Udemy](https://www.udemy.com/)
+- [FreeCodeCamp](https://www.freecodecamp.org/)
+- [W3Schools.com](https://www.w3schools.com/)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/)
 
 
 
@@ -170,25 +182,17 @@ This website allowed me to select a number of devices with different size screen
 
 ---
 
-## Deployment
+## Clone, Fork and Deploy
 
-The steps below will outline how to deploy, clone or fork this repository.
-These steps assume that you have a GitHub/GitPod account, if not please start [here](https://www.github.com) by creating a GitHub account and installing the GitPod extension.
-
-This project was deployed using GitHub pages.
-The procedure for doing this is very straight forward.
-
-- Inside the repository click on the button marked "Settings".
-- In the side bar on the left click on the button marked "Pages".
-- Under the source title you have two drop down menus, make sure the first is set to "Main" and the second to "Root" and click "Save".
-- Within a couple of minutes the site was live and I received a notification indicating the url.
+The steps below will outline how to clone fork and deploy this repository.
+These steps assume that you have a GitHub/GitPod account, if not please start [here](https://www.github.com) by creating a GitHub account and [here](https://www.gitpod.io/docs/) by creating a GitPod account and installing the GitPod extension.
 
 ### Cloning
 
 To clone this repository just follow the steps below.
 
 - Navigate to the Repositories section in my GitHub portfolio.
-- Click on the Repository you want to clone (project-1-hubble).
+- Click on the Repository you want to clone (project-2-ISS-tracker-quiz).
 - Click the button labeled "Code" and copy the link shown.
 - Open a new folder or your prefered location in your GitPod workspace.
 - Type "git clone" into the terminal, paste the link and click Enter.
@@ -202,6 +206,15 @@ To fork this repository just follow the steps below.
 - On the top right of the page click on the button marked "fork".
 - The repository has now been cloned and you can find it in your account.
 
+### Deployment
+
+This project was deployed using GitHub pages.
+The procedure for doing this is very straight forward.
+
+- Inside the repository click on the button marked "Settings".
+- In the side bar on the left click on the button marked "Pages".
+- Under the source title you have two drop down menus, make sure the first is set to "Main" and the second to "Root" and click "Save".
+- Within a couple of minutes the site was live and I received a notification indicating the url.
  
 
 [Back to the Top](#table-of-contents)
@@ -227,23 +240,6 @@ The API used to plot the coordinates of the ISS onto the map was wheretheiss.at,
 - [ISS-API](https://wheretheiss.at/w/developer)
 
 I used a function that i found on StackOverflow to remove the lines between the tiles on the map, this is stated above the function in the map-api.js file.
-
-[Back to the Top](#table-of-contents)
-
----
-
-## Errors
-
-`Uncaught TypeError: Cannot read properties of undefined (reading 'target')`
-
-Throughout the development of this project i kept receiving an error in the console relating to a javaScript function.
-This function was passed an event and assigned it's value to a variable. 
-
-It looks like this = `let clicked = event.target.innerText;`
-
-The variable was then used to compare the users choice with the correct answer in the quiz.
-Although this function worked perfectly the error persisted, my mentor could not figure out why, and the slack community couldn't help either,
-so i had to contact tutor support to help with this issue.
 
 [Back to the Top](#table-of-contents)
 
